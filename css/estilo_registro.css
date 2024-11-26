@@ -1,0 +1,12 @@
+.label1 {
+  font-style: oblique;
+  color: #027e72;
+}
+
+.label2 {
+  font-style: oblique;
+  color: #ea5f10;
+}
+body {
+  background-image: url("../imagenes/fondo.jpg");
+}

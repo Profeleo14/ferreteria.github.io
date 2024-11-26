@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/estilo_registro.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid mt-3">
+<form action="index.html">
+  <label class="label1">Tipos de Documento:</label>
+  <select name="t_doc">
+    <option value="CC">Cedula de Ciudadania</option>
+    <option value="CE">Cedula de Extranjeria</option>
+    <option value="TI">Tarjeta de Identidad</option>
+  </select>
+  <br><br>
+
+  	<label class="label2">Id:</label>
+	<input type="number" name="id_usu" required>
+  <br>  <br>
+
+   <label class="label1">Primer Nombre:</label>
+	<input type="text" name="p_nombre" required><br><br>
+
+	  <label class="label2">Segundo Nombre:</label>
+	<input type="text" name="s_nombre"><br><br>
+
+	<label class="label1">Apellidos:</label>
+	<input type="text" name="apellidos" required>
+  <br>  <br>
+
+
+  <input class="btn btn-success" type="submit" value="Registrar usuario">
+</form>
+</div>
+</body>
+</html>
